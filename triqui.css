@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(248, 187, 198);
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+.container{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  text-align: center;
+}
+.cuadricula{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+width: 100%;
+justify-content: center;
+}
+.botonopcion{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(224, 221, 241);
+    border-style: solid;
+    border-color: white;
+}
+
+.icono{
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.fa-solid {
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 70px;
+}
+.fa-o{
+    color: blueviolet;
+}
+.fa-x{
+    color: rgb(128, 231, 214);
+}
